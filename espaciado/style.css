@@ -1,0 +1,26 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 25% 50% 25%; */
+    /* grid-template-rows: 100px 50px; */
+    /* grid-template: filas/ columnas; */
+    grid-template: 100px 150px 90px / 25% 50% 25%;
+}
+.item {
+    background: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+.item:nth-of-type(4) {
+    background: lightgreen;
+    display: grid;
+    grid-template: 80px 80px 80px / 100px 100px 100px;
+    overflow: auto;
+}
+.item .item {
+    background: lightcoral;
+    overflow: hidden;
+}
