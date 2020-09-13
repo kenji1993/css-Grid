@@ -8,6 +8,9 @@
     /* grid-template-rows: 100px 50px; */
     /* grid-template: filas/ columnas; */
     grid-template: 100px 150px 90px / 25% 50% 25%;
+    /* grid-column-gap: 30px; */
+    /* grid-row-gap: 10px; */
+    grid-gap: 10px 30px; 
 }
 .item {
     background: lightblue;
