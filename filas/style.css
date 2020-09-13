@@ -1,0 +1,16 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 25% 50% 25%; */
+    /* grid-template-rows: 100px 50px; */
+    /* grid-template: filas/ columnas; */
+    grid-template: 100px 50px 90px / 25% 50% 25%;
+}
+.item {
+    background: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}
