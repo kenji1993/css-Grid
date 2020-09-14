@@ -14,9 +14,6 @@
     grid-template-rows: [inicio] 200px [linea2] 200px [final];
     height: 100vh;
     grid-gap: 0.5px;
-    grid-auto-flow: column;
-    grid-auto-columns: 200px 200px;
-    
     
 }
 .item {
